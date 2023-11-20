@@ -1,0 +1,391 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+/* Estilos para la página del login*/
+.body_index{
+    background-image: url("../images/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+}
+.container_login{
+    border: 1px solid black;
+    width: 1080px;
+    margin: 0px auto;
+    text-align: center;
+}
+/* Estilos para la página de los alumnos*/
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+.body_alumnos{
+    background-image: url("../images/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container_alumnos {
+    background-image: url("../images/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title_alumnos{
+    background-color: rgba(52, 58, 64, 0.6);
+    width: 400px;
+    margin: 0px auto;
+    font-size: 24px;
+    color: #f8f9fa;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.title_login {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.button_insert {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button_insert:hover {
+    background-color: #0056b3;
+}
+
+.input_filtrado {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button_filtrar {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button_filtrar:hover {
+    background-color: #1d822e;
+}
+
+/* Estilos para la tabla de alumnos */
+.table_alumnos {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tr_alumnos {
+    background-color: #f8f9fa;
+    font-family: 'Roboto';
+}
+
+.th_alumnos,
+.td_alumnos {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-family: 'Roboto';
+}
+
+.th_alumnos {
+    background-color: #343a40;
+    color: #fff;
+    font-family: 'Roboto';
+}
+
+.td_alumnos {
+    background-color: rgba(245, 245, 220, 0.6);
+    font-family: 'Roboto';
+}
+.button_volver {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button_volver:hover {
+    background-color: #2980b9;
+}
+
+
+/* Estilos para los botones de operaciones */
+.button_delete,
+.button_change {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.button_delete:hover,
+.button_change:hover {
+    background-color: #c82333;
+}
+/* Estilos para la página del error*/
+/* Estilos para el contenedor principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos para el contenedor de error */
+.container_error {
+    text-align: center;
+}
+
+/* Estilos para la imagen de error */
+.imagen_error {
+    width: 150px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+}
+
+/* Estilos para el título de error */
+.title_error {
+    font-size: 24px; /* Ajusta el tamaño del texto según tus necesidades */
+    color: #FF0000; /* Cambia el color del título */
+}
+
+/* Estilos para el texto de error */
+.text_error {
+    font-size: 18px; /* Ajusta el tamaño del texto según tus necesidades */
+}
+
+
+/* styles.css */
+
+/* Estilos generales */
+.bodynewAlumno {
+    font-family: Arial, sans-serif;
+    background-image: url("../images/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container_newAlum {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title_newAlum {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilos para etiquetas de formulario */
+.label_newAlum {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Estilos para campos de entrada de formulario */
+.input_newAlum {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el campo de selección */
+select.input_newAlum {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los botones de radio */
+.input_newAlum[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Estilos para el botón de envío */
+.button_add {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button_add:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el área de texto */
+.textarea_newAlum {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+/* Estilo para el contenedor principal */
+.container_login {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para el título del formulario */
+.title_login {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilo para las etiquetas del formulario */
+.label_login {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Estilo para los campos de entrada de texto */
+.input_login {
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para el botón de envío */
+.button_login {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Cambiar estilo al botón al pasar el ratón sobre él */
+.button_login:hover {
+    background-color: #0056b3;
+}
+/* Estilos para el contenedor principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+/* Estilos para el contenedor de error */
+.container_error {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el título de error */
+.title_error {
+    font-size: 36px;
+    color: #ff0000;
+    margin: 0;
+}
+
+/* Estilos para el texto de error */
+.text_error {
+    font-size: 18px;
+    color: #333;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+.container_editAlum {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title_editAlum {
+    text-align: center;
+    color: #333;
+}
+
+.label_newAlum {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+.input_newAlum,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input_newAlum[type="radio"] {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.button_add {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button_add:hover {
+    background-color: #45a049;
+}
